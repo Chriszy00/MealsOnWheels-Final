@@ -1,0 +1,159 @@
+/* *{
+    border: 1px solid yellow
+} */
+*{
+    color:black;
+  }
+.onhover {
+    background-color: #0000000a;
+    border-radius: 10px;
+}
+.onhover:hover {
+    background-color: rgba(0, 0, 0, 0.233);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.homebanner{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/src/assets/images/banner1.jpg);
+    height: 87vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 30%;
+}
+.bannerMaintext{
+    font-family: SatoshiBold;
+    font-size: 5rem;
+}
+.bannerdiv, .bannerdivouter{
+    display: flex;
+    flex-direction: column;
+    color: #f0f0f0;
+}
+.bannerdiv{
+    margin-top: 20%;
+}
+.bannerbelow{
+    display: flex;
+    gap: 10px;
+    margin-top: -5%;
+    flex-wrap: wrap;
+}
+.bannerbelow1{
+    width: 48%;
+    background-color: #F24C3D ;
+}
+.bannerbelow2, .bannerbelow3{
+    width: 25%;
+}
+.bannerbelow2{
+    background-color: #F2BE22;
+}
+.bannerbelow3{
+    background-color: #22A699;
+}
+.bannerbelowchild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+.bannerbelowhead{
+    font-family: SatoshiReg;
+    color: #f0f0f0;
+}
+.bannerbelowtext{
+    font-family: SatoshiBold;
+    font-size: 2.5rem;
+    color: #f0f0f0;
+}
+
+.mealsonwheelscont{
+    margin-top: 5%;
+}
+
+.mealsonwheels1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mealsonwheelsHead{
+    font-family: SatoshiBold;
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 3%;
+}
+.mealsonwheelsDesc{
+    
+    font-family: SatoshiReg;
+    font-size: 1.2rem;
+    color: #000;
+}
+.homeimg1{
+    border-radius: 10px;
+}
+.readmorebtn{
+    font-family: SatoshiMed;
+    background-color: #F2BE22;
+    color:#000;
+}
+
+.piccol1{
+    padding:0;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.piccol11{
+    margin-top: -7%;
+    margin-bottom: 14%;
+}
+.piccol12{
+    margin-bottom: -7%;
+}
+.homerow2{
+    margin-top: 15%;
+}
+.nourish2{
+    font-family: SatoshiBold;
+    font-size: 5rem;
+    color: #000;
+    line-height: 90%;
+}
+
+.choicesCont{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.choice1{
+    background-image: linear-gradient(180deg,rgba(242, 76, 61, 0),rgba(242, 76, 61, 1)), url(/src/assets/images/donor1.png);
+    background-position: center;
+    background-size: cover;
+}
+.choice2{
+    background-image: linear-gradient(180deg,rgba(242, 190, 34, 0),rgba(242, 190, 34, 1)), url(/src/assets/images/ordernow1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.choice3{
+    
+    background-image: linear-gradient(180deg,rgba(34, 166, 153, 0),rgba(34, 166, 153, 1)), url(/src/assets/images/home21.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.choiceName{
+    padding: 50% 0% 5% 8%;
+    font-family: SatoshiBold;
+    color: #f0f0f0;
+    
+}
+.choice1, .choice2, .choice3{
+    border-radius: 15px;
+}
+
+
+.custom-font-footer {
+    font-family: SatoshiMed;
+  }

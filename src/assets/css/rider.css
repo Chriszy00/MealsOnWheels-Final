@@ -1,0 +1,25 @@
+*{
+    color:black;
+  }
+.confirmdeliverybtn{
+    background-color: #F2BE22;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-family: SatoshiBold;
+}
+.totaldelivered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.totaldeliverednum{
+    font-size:  10rem;
+}
+th{
+    font-family: SatoshiBlack;
+}
+td{
+    font-family: SatoshiReg;
+}

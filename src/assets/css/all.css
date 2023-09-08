@@ -1,0 +1,45 @@
+@font-face {
+    font-family: SatoshiReg;
+    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf)
+  }
+  @font-face {
+    font-family: SatoshiBold;
+    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf);
+  }
+  @font-face {
+    font-family: SatoshiLight;
+    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf);
+  }
+  @font-face {
+    font-family: SatoshiMed;
+    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf);
+    
+  }
+
+  .satoshi-bold {
+    font-family: SatoshiBold;
+  }
+  
+  .satoshi{
+    font-family: SatoshiReg;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #303030; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F0B217; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ECAF15; 
+}
