@@ -78,7 +78,7 @@ function Login() {
           </div>
         </div>
         <div className="col-md-8 p-0">
-          <div className="card rounded-top-left shadow">
+          <div className="card rounded-top-left shadow" style={{ height: '118%' }}>
             <div className="card-header bg-transparent px-5 pt-5 m-5 border-1">
               <h5 className="text-muted text-end py-2 pb-4">
                 Do not have an account?{" "}

@@ -267,7 +267,7 @@ class Admin extends Component {
                   </button>
                 </li>
               ))}
-              ;
+              
             </ul>
           </div>
         </td>

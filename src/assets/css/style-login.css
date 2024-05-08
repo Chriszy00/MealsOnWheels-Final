@@ -79,7 +79,7 @@
 }
 
 .rounded-top-left {
-  border-top-left-radius: 10%; /* Adjust the value to control the roundedness */
+  border-top-left-radius: 10%;
   overflow: hidden;
 }
 
